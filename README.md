@@ -2,8 +2,6 @@
 ====================
 
 @author [Elf-mousE](http://elf-mouse.me/)
-@since 2013.12.09
-@updated 2015.03.16
 
 配置
 ----
