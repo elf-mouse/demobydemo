@@ -9,6 +9,7 @@ $demo = new HelloDemo($unit);
   <title>Demo <?php echo $demo->now; ?></title>
   <link rel="stylesheet" href="<?php echo $demo->mainCss; ?>">
   <link rel="stylesheet" href="<?php echo $demo->css; ?>">
+  <script src="js/jquery/jquery-1.8.3.min.js"></script>
 </head>
 <body>
   <?php if ($demo->html): ?>
@@ -16,7 +17,6 @@ $demo = new HelloDemo($unit);
   <?php else: ?>
   <?php echo 'File does not exist :('; ?>
   <?php endif; ?>
-  <script src="js/jquery/jquery-1.8.3.min.js"></script>
   <script src="<?php echo $demo->mainJs; ?>"></script>
   <script src="<?php echo $demo->js; ?>"></script>
 </body>
